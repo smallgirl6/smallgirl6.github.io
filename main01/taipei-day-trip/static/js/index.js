@@ -56,9 +56,6 @@
             Attraction_detail[i].replaceChild(nextCat,Attraction_cat[i]);
             
             //景點詳細連結
-            // for(let i = 0; i<link.length; i++){
-            //     link[i].setAttribute("href",`/attraction/${id[i]}`);
-            // }
             let nextlink = document.createElement("a");
             nextlink.setAttribute("class", "Attraction-link");
             nextlink.href = `/attraction/${[i]}`;
